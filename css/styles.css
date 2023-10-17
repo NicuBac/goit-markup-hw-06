@@ -671,6 +671,11 @@ footer {
   padding-bottom: 15px;
 }
 
+.newsletter-email:hover,
+.newsletter-email:focus {
+  border: 1px solid var(--active-link);
+}
+
 .subscribe-button {
   display: flex;
   justify-content: center;
@@ -804,6 +809,8 @@ textarea {
   outline: none;
 }
 
+.textfield:hover,
+textarea:hover,
 .textfield:focus,
 textarea:focus {
   border: 1px solid rgba(33, 150, 243, 1);
@@ -861,6 +868,10 @@ textarea:focus {
   left: 0;
 }
 
+.terms-and-conditions-check {
+  accent-color: var(--active-link);
+}
+
 .terms-and-conditions-check:not(:checked) {
   visibility: hidden;
 }
@@ -889,3 +900,4 @@ textarea:focus {
   padding: 0;
   border-radius: 4px;
 }
+
